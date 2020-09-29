@@ -1,0 +1,79 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "check veronica",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LaneKeepIntent",
+                    "slots": [],
+                    "samples": [
+                        "lane keeping mode",
+                        "lane mode",
+                        "keep lane",
+                        "lane following",
+                        "lane keeping"
+                    ]
+                },
+                {
+                    "name": "MappingIntent",
+                    "slots": [],
+                    "samples": [
+                        "hector slam",
+                        "slam",
+                        "mapping"
+                    ]
+                },
+                {
+                    "name": "KillIntent",
+                    "slots": [],
+                    "samples": [
+                        "kill all nodes",
+                        "stop ros",
+                        "kill ros",
+                        "kill nodes",
+                        "kill all"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
